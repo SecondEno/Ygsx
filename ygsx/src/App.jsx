@@ -1,9 +1,13 @@
-import React, { Component } from 'react';
+import React, { Component, Suspense, lazy } from 'react'
 import GlobalStyle from './style'
 
-import { Route } from 'react-router-dom'
+import { Route, Switch, Redirect } from 'react-router-dom'
 
-import Login from '@/views/Login'
+
+// import Login from '@/views/Login'
+// const Login = lazy( () => import('./views/Login/index111111111') )
+const Login = lazy( () => import('./views/Login/index') )
+
 
 
 class App extends Component {
@@ -14,7 +18,12 @@ class App extends Component {
         <GlobalStyle />
 
         {/* App */}
-        <Login />
+        {/* <Login /> */}
+        <Suspense  fallback={<div>Loading...</div>}>
+          <Switch>
+            <Route path="/login" component={Login} />
+          </Switch>
+        </Suspense>
       
       </>
     );
