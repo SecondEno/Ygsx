@@ -7,6 +7,7 @@ import { Route, Switch, Redirect } from 'react-router-dom'
 // import Login from '@/views/Login'
 // const Login = lazy( () => import('./views/Login/index111111111') )
 const Login = lazy( () => import('./views/Login/index') )
+const My = lazy( () => import('./views/My/index') )
 
 
 
@@ -22,6 +23,7 @@ class App extends Component {
         <Suspense  fallback={<div>Loading...</div>}>
           <Switch>
             <Route path="/login" component={Login} />
+            <Route exact path="/my" component={My} />
           </Switch>
         </Suspense>
       
