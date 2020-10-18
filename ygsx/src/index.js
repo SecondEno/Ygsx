@@ -1,8 +1,9 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 import App from './App'
+// 引入store
+import store from './store/index'
 
-import store from './store'
 import { Provider } from 'react-redux'
 
 // 路由

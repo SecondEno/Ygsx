@@ -1,0 +1,48 @@
+{
+  "ret": true,
+  "data": [
+  	{
+  		"id":1,
+  		"img":"https://img10.yiguoimg.com/d/items/2019/190621/9570213294614229_144.png?w=144&h=144",
+  		"title":"买二付一"
+  	},
+  	{
+  		"id":2,
+  		"img":"https://img10.yiguoimg.com/d/items/2019/190704/9570213406385892_144.png?w=144&h=144",
+  		"title":"原箱佳沛"
+  	},
+  	{
+  		"id":3,
+  		"img":"https://img11.yiguoimg.com/d/items/2019/190621/9570213294679765_144.png?w=144&h=144",
+  		"title":"会员福利"
+  	},
+  	{
+  		"id":4,
+  		"img":"https://img12.yiguoimg.com/d/items/2019/190705/9570213415954149_144.png?w=144&h=144",
+  		"title":"银行活动"
+  	},
+  	{
+  		"id":5,
+  		"img":"https://img13.yiguoimg.com/d/items/2019/190621/9570213294745301_144.png?w=144&h=144",
+  		"title":"新品惠萍"
+	  }
+	  ,
+  	{
+  		"id":6,
+  		"img":"https://img09.yiguoimg.com/d/items/2019/190621/9570213294778069_144.png?w=144&h=144",
+  		"title":"精选肉类"
+	  }
+	  ,
+  	{
+  		"id":7,
+  		"img":"https://img10.yiguoimg.com/d/items/2019/190621/9570213294810837_144.png?w=144&h=144",
+  		"title":"海鲜水产"
+	  }
+	  ,
+  	{
+  		"id":8,
+  		"img":"https://img14.yiguoimg.com/d/items/2019/190621/9570213294843605_144.png?w=144&h=144",
+  		"title":"食品饮料"
+  	}
+  ]
+}
