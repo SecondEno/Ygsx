@@ -17,5 +17,7 @@ export const THIRDURI = '/api/third'
 // 获取商品详情的uri地址
 export const DETAILURI = 'https://b2capigateway.yiguo.com/api/commodityapi/Commodity/GetCommodityInfo'
 
+export const LISTURI = 'https://b2capigateway.yiguo.com/api/commodityapi/Commodity/GetSearchList'
+
 
 

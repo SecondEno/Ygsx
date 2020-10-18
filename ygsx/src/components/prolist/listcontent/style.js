@@ -1,14 +1,15 @@
 import styled from 'styled-components'
 
 const Prolist = styled.div`
-/* overflow-y:scroll; */
+  /* display:flex;
+overflow-y:scroll; */
 ul{
     padding:0 .05rem;
     width:100%;
     box-sizing:border-box;
     display:flex;
     flex-wrap:wrap;
-    overflow:auto;
+    
     li{
         width:50%;
         height:2.34rem;

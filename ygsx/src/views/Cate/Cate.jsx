@@ -1,11 +1,14 @@
 import React, { Component } from 'react';
 
 import cateModel from '../../models/cateModel'
+import { Route, withRouter, Switch, Redirect } from 'react-router-dom'
 
 import {
 	CateListContainer
 } from './style'
+@withRouter
 class Cate extends Component {
+	
 	state = {
 		activeList: [],
 		cateList: [],
@@ -37,6 +40,9 @@ class Cate extends Component {
 	}
 	setId = id => {
 		console.log(id)
+		console.log(this.props.push)
+		this.props.history.push(`/list?commodityCode=${id}`)
+		
 	}
 	render() {
 		return (

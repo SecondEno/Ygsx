@@ -20,16 +20,16 @@ class index extends Component {
                 {
                     data.map(
                         (item,index)=> (
-                            <li key={item.get('commodityCode') } onClick = { this.goDetailaPage.bind(this, (item.get('commodityCode')) ) }>
+                            <li key={item.get('CommodityCode') } onClick = { this.goDetailaPage.bind(this, (item.get('CommodityCode')) ) }>
                                 <div className='proitem'>
                                     <div className='pic'>
-                                        <img src={ item.get('pictureUrl') }/>
+                                        <img src={ item.get('SmallPic') }/>
                                     </div>
                                     <div className='info'>
-                                        <p className='name'>{item.get('commodityName')}</p>
+                                        <p className='name'>{item.get('CommodityName')}</p>
                                         <div className='price'>
-                                            <strong>¥{item.get('commodityPrice')}</strong>
-                                            /{item.get('commoditySpec')}
+                                            <strong>¥{item.get('OriginalPrice')}</strong>
+                                            /{item.get('Spec')}
                                             <i></i>
                                         </div>
                                     </div>

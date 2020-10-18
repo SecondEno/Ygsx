@@ -12,7 +12,7 @@ const GlobalStyle = createGlobalStyle`
 
 html,
 body {
-  overflow: hidden;
+  /* overflow: hidden; */
   height: 100%; }
 
 ::-webkit-scrollbar {
