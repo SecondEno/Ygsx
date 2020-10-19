@@ -2,9 +2,7 @@ import React, { useState, useEffect }  from 'react';
 import { LoginDiv } from './style'
 
 import { connect } from 'react-redux'
-import {
-  login
-} from '../../store/actions/userAction'
+
 
 import {
   Tabs,
@@ -121,5 +119,5 @@ const index = props => {
   );
 }
 
-export default connect(null, { login })(index);
+export default connect(null,)(index);
 

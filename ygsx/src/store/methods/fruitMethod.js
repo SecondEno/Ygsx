@@ -10,6 +10,7 @@ export default {
         // js转为immutable对象
         let data = fromJS( action.payload)
         // 此处为追加数据的处理，注意此时的state为immutable对象，需要使用专门的方法
+        state = state.setIn(['swiper'], fromJS([]))
         return state.updateIn(['swiper'], item=> item.concat(data))
     },
 
@@ -19,6 +20,7 @@ export default {
         // js转为immutable对象
         let data = fromJS( action.payload)
         // 此处为追加数据的处理，注意此时的state为immutable对象，需要使用专门的方法
+        state = state.setIn(['menu'], fromJS([]))
         return state.updateIn(['menu'], item=> item.concat(data))
     },
 
@@ -28,6 +30,7 @@ export default {
         // js转为immutable对象
         let data = fromJS( action.payload)
         // 此处为追加数据的处理，注意此时的state为immutable对象，需要使用专门的方法
+        state = state.setIn(['firstList'], fromJS([]))
         return state.updateIn(['firstList'], item=> item.concat(data))
     },
 

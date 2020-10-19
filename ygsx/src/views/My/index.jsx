@@ -23,6 +23,10 @@ const data1 = Array.from(new Array(5)).map((_val, i) => ({
 
 
 const index = () => {
+  function goDetailaPage(){
+    console.log(this,props)
+    this.props.history.push(`/login`)
+  }
   return (
     <MyDiv>
       {/* 个人中心 */}

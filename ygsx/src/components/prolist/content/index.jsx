@@ -13,7 +13,9 @@ class index extends Component {
         this.props.history.push(`/detail?commodityCode=${code}`)
     }
     render() {
-        let data = this.props.data || []
+        let data = []
+        data = []
+        data = this.props.data || []
         return (
             <ProContainer >
                 <ul>
