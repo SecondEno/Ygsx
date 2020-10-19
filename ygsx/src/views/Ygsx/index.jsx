@@ -32,13 +32,7 @@ class Index extends Component {
         this.props.getCookieList()
         // window.location.reload()
     }
-    // componentDidMount() {
-    //     let l = 0
-    //     if (l = 0) {
-    //         l = 1
-    //         window.location.reload()
-    //     }
-    // }
+
     render() {
         
         return (
